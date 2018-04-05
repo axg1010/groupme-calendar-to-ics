@@ -2,7 +2,7 @@ from icalendar import Calendar, Event
 from flask import Response
 import dateutil.parser
 import requests
-import urlparse
+from urllib.parse import urlparse
 import urllib
 from flask import current_app
 
